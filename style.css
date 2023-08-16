@@ -1,8 +1,9 @@
-.nav-link{
+.nav-link {
     color: rgb(204, 204, 204);
     font-size: large;
 }
-body{
+
+body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -10,16 +11,18 @@ body{
     height: 500vh;
     color: white;
 }
-#home{
+
+#home {
     margin-top: 100px;
     height: 80vh;
 }
-#home .logo{
+
+#home .logo {
     width: 20vw;
     min-width: 200px;
 }
 
-.fotbar{
+.fotbar {
     /* background-image: url(assets/FotbarPCC2.jpeg);
     background-size: cover; */
     text-align: center;
@@ -27,10 +30,12 @@ body{
     max-height: 700px;
     width: 100%;
 }
-.fotbar img{
+
+.fotbar img {
     opacity: 0.5;
 }
-.fotbar h1{
+
+.fotbar h1 {
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -38,7 +43,8 @@ body{
     margin-top: 16%;
     color: rgb(255, 255, 255);
 }
-.fotbar h3{
+
+.fotbar h3 {
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -46,7 +52,8 @@ body{
     margin-top: 20%;
     color: white;
 }
-.subTitle{
+
+.subTitle {
     background-color: #068FFF;
     justify-content: center;
     font-size: 15px;
@@ -55,16 +62,21 @@ body{
     padding: 10px 20px;
     border-radius: 30px;
 }
-#about .container p{
+
+#about .container p {
     margin-top: 20px;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
 }
+
+
 /* #about .visi{
     fill-opacity: 0.5;
     padding: 50px;
 } */
+
+
 /* .visi span{
     position: relative;
     z-index: 2;
@@ -77,6 +89,7 @@ body{
 .visi h1{
     min-height: 500px;
 } */
+
 .tabel {
     background-color: rgba(25, 0, 95, 0.5);
     min-width: 100px;
@@ -87,21 +100,35 @@ body{
     text-align: center;
     padding: 50px;
 }
-.card{
+
+.tabel-events {
+    background-color: rgba(25, 0, 95, 0.5);
+    min-width: 100px;
+    max-width: 650px;
+    max-height: 350px;
+    margin-top: 100px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
     background-color: transparent;
     width: fit-content;
     border: 0;
 }
-.event{
+
+.event {
     width: 550px;
     margin-top: 50px;
     color: white;
     border-radius: 50px;
     text-align: center;
     padding: 50px;
-
 }
-.card-title{
+
+.card-title {
     margin-left: 130px;
     margin-top: -75px;
     background-color: white;
@@ -114,16 +141,50 @@ body{
     padding: 20px;
     width: 250px;
 }
-.visi{
+
+.card-title-events {
+    margin-left: 60px;
+    margin-top: -100px;
+    background-color: white;
+    border-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+}
+
+
+/* .bayangan-gambar {
+    box-shadow: -10px 10px 1px rgba(25, 0, 95, 0.5);
+} */
+
+.visi {
     margin-top: 50px;
 }
-.card h4,li{
+
+.card h4,
+li {
     font-size: 15px;
     font-weight: normal;
 }
-.card li{
+
+.card li {
     text-align: start;
 }
+
+.list-pcc li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list-pcc i {
+    margin-right: 10px;
+}
+
 #rectangle {
     margin-top: 550px;
     margin-left: 50px;
@@ -134,20 +195,25 @@ body{
     box-shadow: 0px 0px 40px 20px black;
     /* background-image: radial-gradient(black 25%, gray); */
 }
+
 .team-member {
     text-align: center;
 }
+
 .team-member img {
     margin-top: -500px;
     margin-left: -70px;
 }
+
 .team-member h5 {
     margin-top: 10px;
     font-weight: normal;
 }
+
 .team-member h4 {
     font-weight: bold;
 }
+
 .btn {
     background-color: #068FFF;
     justify-content: center;
@@ -158,6 +224,8 @@ body{
     width: 200px;
     border-radius: 30px;
 }
+
+
 /* #about .visi .col{
     display: flex;
     min-width: 300px;
