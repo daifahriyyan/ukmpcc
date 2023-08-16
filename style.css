@@ -125,13 +125,14 @@ body{
     text-align: start;
 }
 #rectangle {
-    margin-top: 500px;
-    margin-left: 115px;
-    width: 360px;
-    height: 230px;
+    margin-top: 550px;
+    margin-left: 50px;
+    width: 320px;
+    height: auto;
     border-radius: 50%;
     background: black;
-    background-image: radial-gradient(black 55%, gray);
+    box-shadow: 0px 0px 40px 20px black;
+    /* background-image: radial-gradient(black 25%, gray); */
 }
 .team-member {
     text-align: center;
@@ -140,11 +141,11 @@ body{
     margin-top: -500px;
     margin-left: -70px;
 }
-.team-member h4 {
+.team-member h5 {
     margin-top: 10px;
     font-weight: normal;
 }
-.team-member h3 {
+.team-member h4 {
     font-weight: bold;
 }
 .btn {
