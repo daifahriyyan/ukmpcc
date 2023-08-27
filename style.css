@@ -225,6 +225,22 @@ li {
     border-radius: 30px;
 }
 
+.techcomfest .div-techcomfest{
+    margin-right: -1vw;
+}
+.tb .div-tb{
+    margin-top: -30px;
+}
+.tb img{
+    margin-left: -2vw;
+}
+.techcomfest img{
+    margin-left: -2vw;
+}
+.pcc-class .div-pcc-class{
+    margin-top: 60px;
+    margin-left: -1vw;
+}
 
 /* #about .visi .col{
     display: flex;
