@@ -311,6 +311,19 @@ li {
     margin-top: 12%;
 }
 
+.tombol-blog {
+    color: black;
+    font-size: 10px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.tombol-blog:hover {
+    color: white;
+    background-color: #068FFF;
+    animation: .5s;
+}
+
 
 /* #about .visi .col{
     display: flex;
