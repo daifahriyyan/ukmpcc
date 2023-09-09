@@ -151,7 +151,7 @@
                 <div class="row g-0">
                     <div class="col-md-6 d-md-flex justify-content-center align-items-center ">
                         <div class="card ms-3">
-                            <img src="assets/pcc-class.JPG " alt=" " class="img-fluid mt-md-5 " style="width: 663px; max-height: 400px;">
+                            <img src="assets/pcc-class.JPG " alt=" " class="img-fluid mt-md-5 " style="width: 663px; max-height: 400px; z-index: 5;">
                         </div>
                     </div>
                     <div class="col-md-6 ">
@@ -400,7 +400,6 @@
     </section>
 
     <section class="mt-lg-5">
-        <footer>
             <div class="footer">
                 <div class="container">
                     
@@ -435,13 +434,14 @@
                         <div class="col-md-3 p-5">
                             <h1>Contact</h1>
                             <div class="baseline"></div>
-                            <h3>Semarang, Indonesia Politeknik Negeri Semarang www.ukm.pcc.org</h3>
+                            <h3>Semarang, Indonesia Politeknik Negeri Semarang</h3>
+                            <h3>www.ukm.pcc.org</h3>
                         </div>
                     </div>
+                    <h3 class="copyright">Copyright <span class="ri-copyright-line"></span>PCC Polines</h3>
                 </div>
 
             </div>
-        </footer>
     </section>
 
 
@@ -453,6 +453,25 @@
     <script src="https://use.fontawesome.com/f6ffd8c6f3.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script>
+        
+window.addEventListener('scroll', revealText);
+
+function revealText() {
+  var contents = document.querySelectorAll('section');
+
+  for (var i = 0; i < contents.length; i++) {
+    var contentPosition = contents[i].getBoundingClientRect().top;
+    var screenHeight = window.innerHeight;
+
+    if (contentPosition < screenHeight) {
+      contents[i].classList.add('show');
+    } else {
+        contents[i].classList.remove('show');
+    }
+  }
+}
+    </script>
 </body>
 
 </html>

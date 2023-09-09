@@ -1,3 +1,14 @@
+
+section {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease-in, transform 1s ease-in;
+}
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .nav-link {
     color: rgb(204, 204, 204);
     font-size: large;
@@ -371,4 +382,11 @@ li {
     width: 40px;
     height: 5px;
     border-radius: 5px;
+}
+.footer .baseline{
+    margin-bottom: 10px;
+}
+.footer .copyright{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.5;
 }
