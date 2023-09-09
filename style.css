@@ -223,12 +223,14 @@ li {
     margin-left: -70px;
 }
 
-.team-member h5 {
+.team-member h6 {
     margin-top: 10px;
+    font-size: 25px;
     font-weight: normal;
 }
 
-.team-member h4 {
+.team-member h5 {
+    font-size: 30px;
     font-weight: bold;
 }
 
